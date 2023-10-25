@@ -3,13 +3,13 @@
     flex-direction: column;
     gap: calc(var(--unit) * 19);
     padding: 0 calc(var(--unit) * 12);
-    padding-top: calc(var(--unit) * 19);
+    /*padding-top: calc(var(--unit) * 19);*/
 }
 
 .section {
     display: flex;
     flex-direction: column;
-    background-color: green;
+    color: var(--white);
 }
 
 .section h2 {
@@ -22,6 +22,5 @@
 }
 
 .univers li {
-    background-color: blue;
     padding: calc(var(--unit) * 4);
 }

@@ -9,8 +9,8 @@ export default function Header() {
                     src="/logo.svg"
                     alt="Logo"
                     className={styles.logo}
-                    height={376.7/5}
-                    width={780/5}
+                    height={376.7 / 8}
+                    width={780 / 8}
                 />
                 <ul>
                     <li>
@@ -28,7 +28,10 @@ export default function Header() {
                 </ul>
             </nav>
             <section>
-
+                <video autoPlay loop muted className={styles.video}>
+                    <source src="/video.mp4" type="video/mp4" />
+                    Votre navigateur ne prend pas en charge la vidéo.
+                </video>
             </section>
         </header>
     )
