@@ -12,11 +12,23 @@
     padding: calc(var(--unit) * 12);
     position: fixed;
     top: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all .3s ease-in-out;
 }
 
 .nav:hover {
     background-color: var(--black);
     color: white;
+}
+
+.nav .logo {
+    filter: none;
+    transition: filter .3s ease-in-out;
+}
+
+.nav:hover>.logo {
+    filter: invert();
 }
 
 .nav ul {
