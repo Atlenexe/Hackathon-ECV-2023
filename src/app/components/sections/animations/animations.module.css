@@ -21,3 +21,9 @@
     height: 100%;
     transition: transform 0.3s ease-in-out;
 }
+
+@media screen and (max-width: 1050px) {
+    .animations {
+        flex-direction: column;
+    }
+}

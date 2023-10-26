@@ -51,8 +51,10 @@
     text-transform: uppercase;
     font-weight: bold;
     transition: backdrop-filter .23s;
+    -webkit-transition: all .23s;
     align-items: center;
     z-index: 100;
+    padding: calc(var(--unit) * 12);
 }
 
 .nav:hover {
@@ -70,10 +72,15 @@
     flex-direction: row;
     justify-content: space-between;
     gap: 110px;
-    padding: calc(var(--unit) * 12);
 }
 
 .nav ul li a:hover {
     text-decoration: underline;
     text-underline-offset: 0.12em;
+}
+
+@media screen and (max-width: 1050px) {
+    .nav ul {
+        display: none;
+    }
 }

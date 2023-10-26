@@ -22,7 +22,7 @@ export default function Restaurant() {
                     </span>
                 </div>
                 <div className={styles.restaurant}>
-                    <img src="/img/restaurant.png" alt="" />
+                    <img src="/img/restaurant.png" alt="Restaurant" />
                     <div>
                         <div>
                             <h2>Néo Délice</h2>

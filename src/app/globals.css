@@ -10,6 +10,12 @@
   --dark-green: #06302B;
 
   --unit: 4px;
+
+  --side-padding-sm: 0 calc(var(--unit) * 6);
+  --side-padding-map-sm: 0 calc(var(--unit) * 2);
+
+  --side-padding: 0 calc(var(--unit) * 44);
+  --side-padding-map: 0 calc(var(--unit) * 20);
 }
 
 * {

@@ -3,6 +3,7 @@
     gap: calc(var(--unit) * 2);
     background-color: var(--dark-green);
     overflow-x: scroll;
+    overflow-y: hidden;
 }
 
 .univers li {

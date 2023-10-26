@@ -15,11 +15,11 @@
 }
 
 .padding {
-    padding: 0 calc(var(--unit) * 44);
+    padding: var(--side-padding);
 }
 
 .paddingCarte {
-    padding: 0 calc(var(--unit) * 20);
+    padding: var(--side-padding-map);
 }
 
 .section h2 {
@@ -30,4 +30,14 @@
 
 .title {
     text-align: center;
+}
+
+@media screen and (max-width: 1050px) {
+    .padding {
+        padding: var(--side-padding-sm);
+    }
+
+    .paddingCarte {
+        padding: var(--side-padding-map-sm);
+    }
 }

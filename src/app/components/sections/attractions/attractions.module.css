@@ -43,5 +43,31 @@
     position: absolute;
     bottom: 0;
     width: 100%;
-    background-color: red;
+    height: 263px;
+    background: linear-gradient(98deg, rgba(255, 255, 255, 0.40) 0.08%, rgba(255, 255, 255, 0.10) 85%);
+    clip-path: url(#clip);
+}
+
+.attractions li ul li div svg {
+    position: absolute;
+    display: none;
+}
+
+.attractions li ul li h3 {
+    position: absolute;
+    bottom: 0;
+    width: 80%;
+    padding: calc(var(--unit) * 6);
+    font-size: 28px;
+}
+
+@media screen and (max-width: 1050px) {
+    .attractions{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .attractions>li:nth-child(2) {
+        padding-top: 0;
+    }
 }
