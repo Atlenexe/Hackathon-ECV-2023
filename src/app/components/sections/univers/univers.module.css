@@ -3,3 +3,7 @@
     gap: calc(var(--unit) * 2);
     background-color: var(--dark-green);
 }
+
+.title {
+    text-align: center;
+}
