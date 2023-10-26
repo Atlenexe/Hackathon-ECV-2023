@@ -4,7 +4,7 @@ import styles from './univers.module.css'
 export default function Univers() {
     return (
         <section className={stylesSection.section}>
-            <h2 className={styles.title}>Univers</h2>
+            <h2 className={stylesSection.title}>Univers</h2>
             <ul className={styles.univers}>
                 <li>
                     <img src="/img/serre3.png" alt="Serre" />
