@@ -1,7 +1,6 @@
 .infos {
     display: flex;
     justify-content: space-between;
-    height: calc(var(--unit) * 145);
     gap: calc(var(--unit) * 3);
 }
 
