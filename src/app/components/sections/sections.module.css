@@ -4,6 +4,7 @@
     gap: calc(var(--unit) * 19);
     padding: 0 calc(var(--unit) * 12);
     /*padding-top: calc(var(--unit) * 19);*/
+    z-index: 2;
 }
 
 .section {

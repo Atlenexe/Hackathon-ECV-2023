@@ -28,6 +28,8 @@ export default function Header() {
                 </ul>
             </nav>
             <section>
+                <h1>Où la biologie et la technologie fusionnent pour créer l'extraordinaire</h1>
+                <img src="/bloom.png" alt="Personnage Bloom-e" />
                 <video autoPlay loop muted className={styles.video}>
                     <source src="/video.mp4" type="video/mp4" />
                     Votre navigateur ne prend pas en charge la vidéo.
