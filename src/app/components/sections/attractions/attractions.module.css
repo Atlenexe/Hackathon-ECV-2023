@@ -29,6 +29,10 @@
     padding-top: calc(var(--unit) * 70);
 }
 
+.attractions li ul li {
+    height: calc(var(--unit) * 145);
+}
+
 .attractions li ul li div {
     position: absolute;
     bottom: 0;

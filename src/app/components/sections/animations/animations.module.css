@@ -1,0 +1,18 @@
+.attractions {
+    display: flex;
+    justify-content: space-between;
+    gap: calc(var(--unit) * 8);
+}
+
+.attractions li {
+    background-color: red;
+    width: 100%;
+    overflow: hidden;
+    border-radius: var(--border-radius);
+    height: calc(var(--unit) * 145);
+}
+
+.attractions li img {
+    width: 100%;
+    object-fit: cover;
+}
