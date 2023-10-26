@@ -1,5 +1,5 @@
 .main {
   display: flex;
   flex-direction: column;
-  background-color: var(--dark-green);
+  background: linear-gradient(178deg, #06302B 12.14%, #557E7A 100%);
 }

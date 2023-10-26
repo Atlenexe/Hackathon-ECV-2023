@@ -1,18 +1,23 @@
-.attractions {
+.animations {
     display: flex;
     justify-content: space-between;
     gap: calc(var(--unit) * 8);
 }
 
-.attractions li {
-    background-color: red;
+.animations li {
     width: 100%;
     overflow: hidden;
     border-radius: var(--border-radius);
     height: calc(var(--unit) * 145);
 }
 
-.attractions li img {
-    width: 100%;
+.animations>li:hover>img {
+    transform: scale(1.1);
+}
+
+.animations li img {
     object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease-in-out;
 }

@@ -69,7 +69,3 @@
 .restaurant h2 {
     margin-bottom: calc(var(--unit) * 2);
 }
-
-.restaurant h3 {
-    text-transform: uppercase;
-}

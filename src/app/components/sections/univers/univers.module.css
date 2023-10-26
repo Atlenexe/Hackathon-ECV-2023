@@ -5,13 +5,19 @@
     overflow-x: scroll;
 }
 
-.univers::-webkit-scrollbar
-{
-	height: var(--unit);
+.univers li {
+    height: calc(var(--unit) * 145);
 }
 
-.univers::-webkit-scrollbar-thumb
-{
-	border-radius: var(--border-radius);
-	background-color: rgba(255, 255, 255, 0.292);
+.univers li img {
+    height: 100%;
+}
+
+.univers::-webkit-scrollbar {
+    height: var(--unit);
+}
+
+.univers::-webkit-scrollbar-thumb {
+    border-radius: var(--border-radius);
+    background-color: rgba(255, 255, 255, 0.292);
 }

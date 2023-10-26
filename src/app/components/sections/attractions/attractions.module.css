@@ -4,6 +4,10 @@
     gap: calc(var(--unit) * 8);
 }
 
+.attractions>li>ul>li:hover>img {
+    transform: scale(1.1);
+}
+
 .attractions>li {
     width: 50%;
 }
@@ -22,7 +26,9 @@
 
 .attractions li ul li img {
     width: 100%;
+    height: 100%;
     object-fit: cover;
+    transition: transform 0.3s ease-in-out;
 }
 
 .attractions>li:nth-child(2) {

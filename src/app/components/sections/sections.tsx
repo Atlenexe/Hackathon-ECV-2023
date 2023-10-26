@@ -4,6 +4,7 @@ import styles from './sections.module.css'
 import Animations from './animations/animations'
 import Carte from './carte/carte'
 import Restaurant from './restaurant/restaurant'
+import Infos from './infos/infos'
 
 export default function Sections() {
     return (
@@ -13,6 +14,7 @@ export default function Sections() {
             <Animations />
             <Carte />
             <Restaurant />
+            <Infos />
         </div>
     )
 }

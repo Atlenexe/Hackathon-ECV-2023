@@ -7,7 +7,7 @@ export default function Animations() {
     return (
         <section className={sectionClasses}>
             <h2>Animations</h2>
-            <ul className={styles.attractions}>
+            <ul className={styles.animations}>
                 <li>
                     <img src="/img/cascade.jpg" alt="" />
                 </li>
