@@ -1,12 +1,6 @@
 import type { Metadata } from 'next'
-import { Poppins } from 'next/font/google'
 import './globals.css'
 import Header from './components/header/header'
-
-const poppins = Poppins({
-  subsets: ['latin'],
-  weight: '400'
-})
 
 export const metadata: Metadata = {
   title: 'Neo Bloom',
@@ -20,7 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="fr">
-      <body className={poppins.className}>
+      <body>
         <Header />
         {children}
       </body>
