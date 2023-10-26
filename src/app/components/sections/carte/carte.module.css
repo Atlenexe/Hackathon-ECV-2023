@@ -1,6 +1,6 @@
 .carte {
     width: 100%;
-    height: calc(var(--unit) * 170);
+    height: calc(var(--unit) * 145);
     overflow: hidden;
     border-radius: var(--border-radius);
 }

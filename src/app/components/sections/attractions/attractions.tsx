@@ -17,7 +17,7 @@ export default function Attractions() {
                             </div>
                         </li>
                         <li>
-                            <img src="/img/aquaponies.png" alt="" />
+                            <img src="/img/lumi.png" alt="" />
                         </li>
                     </ul>
                 </li>
@@ -27,7 +27,7 @@ export default function Attractions() {
                             <img src="/img/aquaponies.png" alt="" />
                         </li>
                         <li>
-                            <img src="/img/aquaponies.png" alt="" />
+                            <img src="/img/lumi.png" alt="" />
                         </li>
                     </ul>
                 </li>

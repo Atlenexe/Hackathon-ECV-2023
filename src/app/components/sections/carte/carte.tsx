@@ -2,7 +2,7 @@ import stylesSection from './../sections.module.css'
 import styles from './carte.module.css'
 
 export default function Carte() {
-    const sectionClasses = `${stylesSection.section} ${stylesSection.padding}`;
+    const sectionClasses = `${stylesSection.section} ${stylesSection.paddingCarte}`;
 
     return (
         <section className={sectionClasses}>

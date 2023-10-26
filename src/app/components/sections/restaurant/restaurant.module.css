@@ -1,0 +1,75 @@
+.container {
+    width: 100%;
+    align-items: center;
+    gap: calc(var(--unit) * 8);
+}
+
+.switch {
+    width: calc(var(--unit) * 150);
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 100px;
+    border: calc(var(--unit) / 2) solid var(--white);
+    font-weight: bold;
+    margin: 0 auto;
+    margin-bottom: calc(var(--unit) * 8);
+}
+
+.switch span {
+    padding: calc(var(--unit) * 2);
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: calc(var(--unit) * 2);
+    justify-content: center;
+    stroke: var(--white);
+}
+
+.switch span:first-child {
+    background-color: var(--white);
+    color: var(--black);
+    stroke: var(--black);
+}
+
+.switch span:hover {
+    cursor: pointer;
+}
+
+.restaurant {
+    height: calc(var(--unit) * 145);
+    border-radius: var(--border-radius);
+    position: relative;
+    overflow: hidden;
+}
+
+.restaurant>div {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: calc(var(--unit) * 6);
+    background: linear-gradient(357deg, rgba(31, 31, 31, 0.60) 2.83%, rgba(31, 31, 31, 0.00) 97.54%);
+}
+
+.restaurant button {
+    border-radius: 100px;
+    border: 1px solid #FFF5E6;
+    background: linear-gradient(105deg, rgba(255, 255, 255, 0.10) -24.71%, rgba(255, 255, 255, 0.40) 90.12%);
+    backdrop-filter: blur(20px);
+    padding: calc(var(--unit) * 3) calc(var(--unit) * 8);
+    color: var(--white);
+    height: fit-content;
+    align-self: flex-end;
+}
+
+.restaurant h2 {
+    margin-bottom: calc(var(--unit) * 2);
+}
+
+.restaurant h3 {
+    text-transform: uppercase;
+}
