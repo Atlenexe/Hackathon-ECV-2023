@@ -1,0 +1,8 @@
+.univers {
+    display: flex;
+    gap: calc(var(--unit) * 2);
+}
+
+.univers li {
+    padding: calc(var(--unit) * 4);
+}

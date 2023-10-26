@@ -5,9 +5,6 @@ export default function Sections() {
     return (
         <div className={styles.container}>
             <Univers />
-            <Univers />
-            <Univers />
-            <Univers />
         </div>
     )
 }
