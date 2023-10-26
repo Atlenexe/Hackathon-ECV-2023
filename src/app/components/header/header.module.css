@@ -54,7 +54,6 @@
     -webkit-transition: all .23s;
     align-items: center;
     z-index: 100;
-    padding: calc(var(--unit) * 12);
 }
 
 .nav:hover {
@@ -72,6 +71,7 @@
     flex-direction: row;
     justify-content: space-between;
     gap: 110px;
+    padding: calc(var(--unit) * 12);
 }
 
 .nav ul li a:hover {
@@ -82,5 +82,14 @@
 @media screen and (max-width: 1050px) {
     .nav ul {
         display: none;
+    }
+
+    .nav:hover {
+        background-color: rgba(0, 0, 0, 0);
+        backdrop-filter: none;
+    }
+
+    .nav .logo {
+        margin-top: calc(var(--unit) * 12);
     }
 }
