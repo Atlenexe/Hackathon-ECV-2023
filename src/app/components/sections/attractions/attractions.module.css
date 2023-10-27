@@ -70,4 +70,8 @@
     .attractions>li:nth-child(2) {
         padding-top: 0;
     }
+
+    .attractions>li {
+        width: 100%;
+    }
 }
