@@ -5,7 +5,7 @@ export default function Attractions() {
     const sectionClasses = `${stylesSection.section} ${stylesSection.padding}`;
 
     return (
-        <section className={sectionClasses}>
+        <section className={sectionClasses} id='attractions'>
             <h2>Attractions</h2>
             <ul className={styles.attractions}>
                 <li>

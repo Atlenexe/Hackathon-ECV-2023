@@ -5,7 +5,7 @@ export default function Animations() {
     const sectionClasses = `${stylesSection.section} ${stylesSection.padding}`;
 
     return (
-        <section className={sectionClasses}>
+        <section className={sectionClasses} id='animations'>
             <h2 className={stylesSection.title}>Animations</h2>
             <ul className={styles.animations}>
                 <li>

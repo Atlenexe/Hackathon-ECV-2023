@@ -3,7 +3,7 @@ import styles from './univers.module.css'
 
 export default function Univers() {
     return (
-        <section className={stylesSection.section}>
+        <section className={stylesSection.section} id='univers'>
             <h2 className={stylesSection.title}>Univers</h2>
             <ul className={styles.univers}>
                 <li>

@@ -5,8 +5,8 @@ export default function Infos() {
     const sectionClasses = `${stylesSection.section} ${stylesSection.padding}`;
 
     return (
-        <section className={sectionClasses}>
-            <h2 className={stylesSection.title}>Infos</h2>
+        <section className={sectionClasses} id='infos'>
+            <h2 className={stylesSection.title}>Infos pratiques</h2>
             <ul className={styles.infos}>
                 <li>
                     <h3>Calendrier</h3>

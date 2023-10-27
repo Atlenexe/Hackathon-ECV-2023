@@ -14,16 +14,16 @@ export default function Header() {
                 />
                 <ul>
                     <li>
-                        <a href="#">Univers</a>
+                        <a href="#univers">Univers</a>
                     </li>
                     <li>
-                        <a href="#">Attractions</a>
+                        <a href="#attractions">Attractions</a>
                     </li>
                     <li>
-                        <a href="#">Animations</a>
+                        <a href="#animations">Animations</a>
                     </li>
                     <li>
-                        <a href="#">Infos Pratiques</a>
+                        <a href="#infos">Infos Pratiques</a>
                     </li>
                 </ul>
             </nav>

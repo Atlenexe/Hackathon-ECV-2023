@@ -5,7 +5,7 @@ export default function Restaurant() {
     const sectionClasses = `${stylesSection.section} ${stylesSection.padding}`;
 
     return (
-        <section className={sectionClasses}>
+        <section className={sectionClasses} id='restaurant'>
             <div className={styles.container}>
                 <div className={styles.switch}>
                     <span>
