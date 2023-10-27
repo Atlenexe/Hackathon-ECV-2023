@@ -28,10 +28,10 @@
     stroke: var(--white);
 }
 
-.switch span:first-child {
+.selected {
     background-color: var(--white);
     color: var(--black);
-    stroke: var(--black);
+    stroke: var(--black) !important;
 }
 
 .switch span:hover {
