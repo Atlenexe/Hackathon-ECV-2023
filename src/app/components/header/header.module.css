@@ -26,8 +26,9 @@
 .header section img {
     position: absolute;
     right: 0;
+    bottom: 0;
     width: 40%;
-    transform: translate(0%, 40%) rotate(0deg);
+    transform: translate(0, 200px) rotate(0deg);
     z-index: 1;
 }
 
@@ -91,5 +92,18 @@
 
     .nav .logo {
         margin-top: calc(var(--unit) * 12);
+    }
+
+    .header section {
+        padding: calc(var(--unit) * 3);
+    }
+
+    .header section img {
+        width: 450px;
+        transform: translate(0, 200px) rotate(0deg);
+    }
+
+    .header section h1 {
+        font-size: 25px;
     }
 }

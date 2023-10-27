@@ -66,6 +66,10 @@
     align-self: flex-end;
 }
 
+.restaurant button:hover {
+    cursor: pointer;
+}
+
 .restaurant img {
     width: 100%;
     height: 100%;

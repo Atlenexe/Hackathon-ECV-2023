@@ -12,8 +12,19 @@
 
 .infos li img {
     width: 100%;
+    margin-top: calc(var(--unit) * 10);
+    border-radius: var(--border-radius);
 }
 
 .infos li h3 {
+    margin-bottom: calc(var(--unit) * 5);
     text-align: center;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 1050px) {
+    .infos {
+        flex-direction: column;
+        gap: calc(var(--unit) * 10);
+    } 
 }

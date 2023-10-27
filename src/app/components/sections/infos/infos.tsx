@@ -21,7 +21,7 @@ export default function Infos() {
                 <li>
                     <h3>Comment venir?</h3>
                     <span>Neo Bloom se trouve 1 Quai Marquis d'Aiguillon, 44100 Nantes</span>
-                    <img src="/img/maps.png" alt="" />
+                    <img src="/img/maps.png" alt="" className='maps' />
                 </li>
             </ul>
         </section>
