@@ -16,7 +16,7 @@ export default function Infos() {
                 <li>
                     <h3>Billetterie</h3>
                     <span>Réservez vos billets sur Internet et bénéficiez de réductions</span>
-                    <img src="" alt="" />
+                    <img src="/img/billetterie.png" alt="" />
                 </li>
                 <li>
                     <h3>Comment venir?</h3>

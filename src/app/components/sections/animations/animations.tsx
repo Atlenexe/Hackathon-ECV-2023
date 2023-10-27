@@ -9,13 +9,13 @@ export default function Animations() {
             <h2 className={stylesSection.title}>Animations</h2>
             <ul className={styles.animations}>
                 <li>
+                    <img src="/img/animation2.png" alt="Truc" />
+                </li>
+                <li>
                     <img src="/img/animation1.png" alt="Truc" />
                 </li>
                 <li>
-                    <img src="/img/animation2.png" alt="Jeux pour enfants" />
-                </li>
-                <li>
-                    <img src="/img/cascade.jpg" alt="Truc" />
+                    <img src="/img/exterieur.png" alt="Truc" />
                 </li>
             </ul>
         </section>
